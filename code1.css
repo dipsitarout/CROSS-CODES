@@ -1,0 +1,173 @@
+body{
+    color:white;
+    background-color: black;
+    
+}
+/* NAV TAB */
+.navbar{
+    background: -webkit-linear-gradient(#000000, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+/* prepare div */
+.learn{
+    
+    color:rgb(104, 103, 103);
+}
+.challenge-name-details{
+    width: 400px;
+}
+.learn h6{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h6:hover{
+    color:white;
+}
+.learn h4:hover{
+    color:white;
+}
+/* Divs */
+.individual-challenge-card-v2{
+    margin-bottom: 20px;
+}
+.content--list_header-v2{
+    margin-left:50px;
+    width: 80%;
+    height: 100px;
+    text-align: justify;
+    display: flex;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: #111621;
+}
+.content--list_header-v2:hover{
+    background-color: #303747;
+}
+.content--list_header-v2 h5{
+    margin-top: 20px;
+}
+.content--list_header-v2 button{
+    margin-top:30px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #111621;
+    color:white;
+    transition: 1s;
+    border: 0.1px solid white;
+}
+.content--list_header-v2 button:hover{
+    background-color: #303747;
+}
+.easy{
+    font-size:13px;
+    color:rgb(121, 197, 121);
+}
+.mod{
+    font-size:13px;
+    color:rgb(250, 116, 71);
+}
+/* FOOTER */
+.hidden{
+    opacity: 0;
+    color:aliceblue;
+    transition: all 3s;
+}
+.show{
+    opacity: 1;
+}
+.options{
+    margin-left: 170px;
+    display: flex;
+    gap:50px;
+    cursor: pointer;
+}
+
+.nos{
+    display: none;
+}
+#accommodation-select{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+#TO-DO{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+#TAGS{
+    background-color: rgb(24, 23, 23);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    height: 30px;border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px){
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .individual-challenge-card-v2{
+        margin-left: 0px;
+        width: 100%;
+        height: 200px;
+        background-color: #111621;
+        display: block;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        border-radius: 10px;;
+    }
+    .content--list_header-v2 {
+        background-color: none;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .individual-challenge-card-v2:hover{
+        background-color: #303747;
+    }
+    .content--list_header-v2:hover{
+        background-color: #303747;
+    }
+    
+    .hidden{
+        opacity: 0;
+        color:aliceblue;
+        transition: all 3s;
+    }
+    .show{
+        opacity: 1;
+    }
+    .options{
+       cursor: pointer;
+    }
+}

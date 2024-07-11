@@ -1,0 +1,36 @@
+.rows{
+    display: flex;
+    gap:20px;
+}
+.colnew{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.input{
+    width: 300px;
+    height: 200px;
+}
+.btn-success{
+    margin-bottom: 20px;
+}
+.navbar h5 a{
+    color:rgb(112, 110, 110);
+    text-decoration: none;
+    transition: 1s;
+}
+.navbar h5 a:hover{
+    color:rgb(248, 237, 237);
+    
+}
+@media screen and (max-width: 400px){
+    .rows{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input{
+        width: 200px;
+        height: 200px;
+    }
+    
+}

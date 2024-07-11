@@ -1,0 +1,167 @@
+.main,.container,.start{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: -webkit-linear-gradient(#000000, #ffffff);
+    -webkit-background-clip: text;
+    font-family: 'poppins';
+    
+}
+.timer{
+    display: GRID;
+    place-items: center;
+    background: -webkit-linear-gradient(#ff0b0b, #222121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'poppins';
+}
+.navbar{
+    background: -webkit-linear-gradient(#fcfcff, #ff6565);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    
+}
+.navbar h5{
+    font-weight: bold;
+}
+.game{
+    font-weight: bold;
+    color:rgb(205, 118, 248);
+}
+.container{
+    background: -webkit-linear-gradient(#ff0b0b, #222121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+.game{
+    width: 570px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    justify-content:space-around;
+    gap:10px;
+    text-align: center;
+    font-size: 35px;
+}
+.element{
+    width: 50px;
+    height: 50px;
+    background: -webkit-linear-gradient(#0c0848, #c51212);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    text-align: center;
+}
+.element:hover{
+    transform:scale(1.2);
+}
+.wordsformed{
+    margin:0 auto;
+    margin: auto;
+}
+.off{
+    background: -webkit-linear-gradient(#ff0202, #4cd8ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.rules,.wordsformed{
+    display: grid;
+    place-items: center;
+}
+.wordsformed{
+    background: -webkit-linear-gradient(#ff0b0b, #222121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wordsformed h3{
+    font-size: 40px;
+}
+.wordsformed ul{
+    list-style: none;
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+.flash{
+    background: -webkit-linear-gradient(#00ff40, #00ff62);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.wrong{
+    background: -webkit-linear-gradient(#ff0000, #ff0000);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.congo{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+.congo a{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#ff0b0b, #222121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hide{
+    display: none;
+}
+.hidden{
+    opacity: 0;
+    transition: all 4s;
+}
+.show{
+    opacity: 1;
+}
+.btn-primary{
+    border-radius: 10px;
+    background-color: rgb(255, 121, 121);
+    transition: 1s;
+    border:1px solid green;
+}
+.btn-primary:hover{
+    background-color: rgb(255, 0, 0);
+}
+.card-body {
+    background: -webkit-linear-gradient(#ff0b0b, #222121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-body{
+    font-size: 17px;
+    height: 250px;
+    width: 300px;
+}
+i{
+    cursor: pointer;
+    font-size: 20px;
+}
+@media screen and (max-width: 400px){
+    .game{
+        width: 300px;
+        height: 900px;
+    }
+    .element{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .wordsformed h3{
+        font-size: 20px;
+    }
+    .card-body{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+    }
+  
+}
+

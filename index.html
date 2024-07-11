@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossCodes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CROSSCODES</a>
+      <a class="navbar-brand" href="https://www.instagram.com/androidvitc/"><i class="fa-brands fa-android"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rules.html">RULES</a>
+          </li>
+          
+        </ul>
+        <h5 style="font-size: 15px;"><a href="contactus.html">CONTACT US</a></h5>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container hidden">
+        <h1>CROSSCODES</h1>
+        
+    </div>
+    <BR>
+    <div class="timer">
+      <h3>POINTS-0</h3>
+      <div class="congo hide">
+        <a href="">PROCEED TO NEXT ROUND</a>
+      </div>
+    </div>
+    <BR>
+    <div class="main hidden">
+        <div class="game hidden">
+            <div class="element one"></div>
+            <div class="element two"></div>
+            <div class="element three"></div>
+            <div class="element four"></div>
+            <div class="element five"></div>
+            <div class="element six"></div>
+            <div class="element seven"></div>
+            <div class="element eight"></div>
+            <div class="element nine"></div>
+            <div class="element ten"></div>
+            <div class="element eleven"></div>
+            <div class="element Twelve"></div>
+            <div class="element Thirteen"></div>
+            <div class="element fourteen"></div>
+            <div class="element fiveteen"></div>
+            <div class="element sixteen"></div>
+            <div class="element seventeen"></div>
+            <div class="element eighteen"></div>
+            <div class="element nineteen"></div>
+            <div class="element twentee"></div>
+            <div class="element twenteeone"></div>
+            <div class="element twenteetwo"></div>
+            <div class="element twenteethree"></div>
+            <div class="element twenteefour"></div>
+            <div class="element twenteefive"></div>
+            <div class="element twenteesix"></div>
+            <div class="element twenteeeight"></div>
+            <div class="element twenteenine"></div>
+            <div class="element thirty"></div>
+            <div class="element thirtyone"></div>
+            <div class="element thirtytwo"></div>
+            <div class="element thirtythree"></div>
+            <div class="element thirtyfour"></div>
+            <div class="element thirtyfive"></div>
+            <div class="element thirtysix"></div>
+            <div class="element thirtyseven"></div>
+            <div class="element thirtyeight"></div>
+            <div class="element thirtynine"></div>
+            <div class="element fourtee"></div>
+            <div class="element fourteeone"></div>
+            <div class="element fourteetwo"></div>
+            <div class="element fourteethree"></div>
+            <div class="element fourteefour"></div>
+            <div class="element fourteefive"></div>
+            <div class="element fourteesix"></div>
+            <div class="element fouteeseven"></div>
+            <div class="element fourteeight"></div>
+            <div class="element fourteenin"></div>
+            <div class="element fifty"></div>
+            <div class="element fifty"></div>
+            <div class="element fifty"></div>
+            <div class="element fifty"></div>
+            <div class="element fifty"></div>
+            <div class="element fifty"></div>
+
+        </div>
+    </div>
+    <br>
+    <br><br>
+    <div class="rules hidden">
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              WORDS
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" >
+                The Total Words To Be Formed Is 3:<BR>
+                  <ol>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                  </ol>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="wordsformed hidden">
+        <H3>WORDS FORMED</H3>
+        <UL>
+            <LI class="ans1"></LI>
+            <LI class="ans2"></LI>
+            <LI class="ans3"></LI>
+        </UL>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/a997736e89.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      const observer=new IntersectionObserver((entries)=>{
+        entries.forEach((entry)=>{
+          console.log(entry)
+          if(entry.isIntersecting){
+            entry.target.classList.add('show');
+          }
+          else{
+            entry.target.classList.remove('show');
+          }
+        });
+      });
+      const hiddenElements=document.querySelectorAll(".hidden");
+      hiddenElements.forEach((el)=>
+      observer.observe(el)
+      );
+    </script>
+</body>
+</html>
